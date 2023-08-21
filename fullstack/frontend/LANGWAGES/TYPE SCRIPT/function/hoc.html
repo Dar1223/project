@@ -1,0 +1,30 @@
+<input type="number"   id="num">
+<input type="number"   id="num1">
+<button onclick="caller()">click me</button>
+<script>
+    let dOER=(a,b,opration)=>{
+        if(opration =="+"){
+   return a + b
+        }
+        if(opration =="-"){
+   return a - b
+        }
+        if(opration =="*"){
+   return a - b
+        }
+        if(opration =="/"){
+   return a - b
+        }
+     
+    }
+    function calculator(op,doer){
+        let data=document.getElementById('num').value
+        console.log(data)
+        let data1=document.getElementById('num1').value
+            console.log(doer(parseInt(data) ,parseInt(data1) ,op))        }
+
+    function caller(){
+        calculator("+",dOER)
+    }
+   
+</script>

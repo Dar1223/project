@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .itm{
+            font-size: 40px;
+            color: white;
+            background-color: red;
+            display: none;
+        }
+@media ( max-width:300px){
+    #itim-1{
+        display: block;
+        background-color: green;
+    }
+}
+@media ( min-width:301px) and (max-width:500px){
+    #itim-2{
+        display: block;
+        background-color: rgb(0, 119, 128);
+    }
+}
+@media ( min-width:501px) and (max-width:900px){
+    #itim-3{
+        display: block;
+        background-color: rgb(0, 21, 128);
+    }
+}
+@media ( min-width:901px){
+    #itim-4{
+        display: block;
+        background-color: rgb(250, 110, 45);
+    }
+}
+    </style>
+ <div id="itim-1" class="itm">device name small devices szife of 0px to 300px</div>
+ <div id="itim-2" class="itm">device name tabs szife of 301px to 500px</div>
+ <div id="itim-3" class="itm">device name desktop szife of 501px to 900px</div>
+ <div id="itim-4" class="itm">device name large Tv szife of 901px to --px</div>
+    
+</body>
+</html>

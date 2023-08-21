@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: bisque;
+        }
+    </style>
+    <center><marquee><h1 style="color: blueviolet;">gessing month</marquee></h1>
+        <h1 id="show"></h1>
+        <button onclick="randommonthGenerator()">click me to generate month</button>
+    </center>
+ 
+    <script>
+
+        function randommonthGenerator(){
+let num=Math.floor(Math.random()*12+1)
+
+           let h1= document.getElementById('show')
+          
+            switch(num){
+                case 01:
+                h1.innerHTML= "JAN"
+                break;
+                case 02:
+                h1.innerHTML= "FEB"
+                break;
+                case 03:
+                h1.innerHTML= "MARCH"
+                break;
+                case 04:
+                h1.innerHTML= "APRIL"
+                break;
+                case 05:
+                h1.innerHTML= "MAY"
+                break;
+                case 06:
+                h1.innerHTML= "JUNE"
+                break;
+                case 07:
+                h1.innerHTML= "JULY"
+                break;
+                case 08:
+                h1.innerHTML= "AUG"
+                break;
+
+                case 09:
+                h1.innerHTML= "SEPT"
+                break;
+
+
+
+                case 10:
+                h1.innerHTML= "OCT"
+                break;
+
+
+                case 11:
+                h1.innerHTML= "NOV"
+                break;
+
+
+
+                case 12:
+                h1.innerHTML= "DEC"
+                break;
+
+
+
+
+
+            }
+        }
+    </script>
+</body>
+</html>

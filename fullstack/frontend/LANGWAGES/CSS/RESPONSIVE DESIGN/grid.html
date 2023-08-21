@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .item{
+         
+         background-color: red;
+         color: white;
+         margin: 20px;
+         font-size: 40px;
+         border: 2px solid black;
+        }
+        .container{
+            display: grid;
+            /* grid-template-rows: 200px 200px 200px;
+            grid-template-columns: 200px 200px 200px 200px; */
+            /* grid-template-rows: repeat(3,200px);
+            grid-template-columns: repeat(2,200px) */
+            /* grid-template-rows: repeat(3,200px);
+            grid-template-columns: repeat(6,1fr) */
+            grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+            grid-template-rows: repeat(3,200px);
+           
+        }
+        </style>
+    <div class="container">
+        <div id="item-1" class="item">imk a box</div>
+        <div id="item-2" class="item">imk a box</div>
+        <div id="item-3" class="item">imk a box</div>
+        <div id="item-4" class="item">imk a box</div>
+        <div id="item-5" class="item">imk a box</div>
+        <div id="item-6" class="item">imk a box</div>
+    </div>
+</body>
+</html>
