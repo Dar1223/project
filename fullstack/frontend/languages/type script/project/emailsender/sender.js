@@ -17,9 +17,10 @@ let transport=nodremailer1.createTransport({
 
 let mailoption={
     from:'darshan0106gowda@gmail.com',
-    to:'waseemahmed116@gmail.com',
-    subject:'testing mail',
-    text:'hello how r u'
+    to:'faizulmateen45@gmail.com',
+    to:'abhijeetilkal18@gmail.com',
+     subject:'testing mail',
+    text:'hello how r u ,wht r u ding all'
 
 }
 
